@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+User Management System
+A simple React-based User Management System. This project focuses on listing users using a mock API and includes a basic UI for the dashboard.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features Implemented
+List of Users:
+Users are displayed in a structured table fetched from a mock API.
+Dashboard UI:
+A simple and user-friendly dashboard layout.
+Getting Started
+Prerequisites
+Make sure you have the following installed:
 
-Currently, two official plugins are available:
+Node.js (>=16.0.0)
+npm or yarn package manager
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+Clone the repository:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+npm install  
+# or  
+yarn install  
+Start the development server:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+bash
+Copy code
+npm start  
+# or  
+yarn start  
+Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
