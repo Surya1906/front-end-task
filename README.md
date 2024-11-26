@@ -19,13 +19,13 @@ Clone the repository:
 bash
 Copy code
 npm install  
-# or  
+ or
 yarn install  
 Start the development server:
 
 bash
 Copy code
 npm start  
-# or  
+ or
 yarn start  
 Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
